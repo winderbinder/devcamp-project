@@ -1,4 +1,4 @@
-###THIS IS MY README
+### THIS IS MY README
 
 > This is a Ruby on Rails 5 application that allows users to create their own portfolios
 
