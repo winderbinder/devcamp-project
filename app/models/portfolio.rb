@@ -1,5 +1,7 @@
 class Portfolio < ApplicationRecord
   has_many :technologies
+  accepts_nested_attributes_for :technologies
+
   include Placeholder
   validates_presence_of :title, :body, :main_image, :thumb_image
 
@@ -13,7 +15,7 @@ class Portfolio < ApplicationRecord
 
   def set_defaults
     self.main_image ||= Placeholder.image_generator(height: '600',width: '300')
-    self.thumb_image ||= Placeholder.image_generator(height: '600',width: '300')
+    self.thumb_image ||= Placeholder.image_generator(height: '500',width: '200')
   end
 end
 
