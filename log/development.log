@@ -843,3 +843,185 @@ Processing by PortfoliosController#show as HTML
 Completed 200 OK in 33ms (Views: 24.5ms | ActiveRecord: 1.2ms)
 
 
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-29 14:37:27 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (1.1ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 255ms (Views: 228.1ms | ActiveRecord: 8.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-01-29 14:37:30 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HqxD23I2ZB+5j7HqL0kEJCLhaVgi3q4CbDz1ru8mJ5t8PbqErd+OmrODPqYabd89xSVtABsQEvWJOZON0g58Tw=="}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:37:30 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (2.6ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 76ms (Views: 50.5ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:37:33 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:47:20 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (1.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 266ms (Views: 226.6ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-01-29 14:47:43 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 67ms (Views: 44.7ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-01-29 14:47:54 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2018-01-29 14:48:19 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OF3U5iBVRKEjL+rNDsOV7sFpT9zn8GdfKe02bzqyJ59bqqDueUFAXvIRHLRqgTxh652Z4XBGun0XQKbgL4N5RQ==", "user"=>{"email"=>"yujyuj@ger.com", "name"=>"aloerg", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "yujyuj@ger.com"], ["LIMIT", 1]]
+  [1m[35mSQL (5.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "yujyuj@ger.com"], ["encrypted_password", "$2a$11$RTzcZWB0FKnB/kxAVEAKPOi9Tx0E1ffWI3bsK81znuqtu/VBLErz6"], ["name", "aloerg"], ["created_at", "2018-01-29 21:48:19.965403"], ["updated_at", "2018-01-29 21:48:19.965403"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "current_sign_in_ip" = $4, "last_sign_in_ip" = $5, "updated_at" = $6 WHERE "users"."id" = $7[0m  [["sign_in_count", 1], ["current_sign_in_at", "2018-01-29 21:48:19.973269"], ["last_sign_in_at", "2018-01-29 21:48:19.973269"], ["current_sign_in_ip", "127.0.0.1/32"], ["last_sign_in_ip", "127.0.0.1/32"], ["updated_at", "2018-01-29 21:48:19.974314"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 190ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:48:19 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 31ms (Views: 26.8ms | ActiveRecord: 1.7ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-01-29 14:48:24 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"jRJ4kFyvZs4WRQm2eJstFgeqePlVlW8Jjox0YqjJ3VDvg4HPg0aMSxxJhvpNv/YP4G58oWxb0/5riRJBleGGhA=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:48:24 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:54:10 -0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/current_user_concern.rb:2:in `<module:CurrentUserConcern>'
+app/controllers/concerns/current_user_concern.rb:1:in `<top (required)>'
+app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/pages_controller.rb:1:in `<top (required)>'
+Started GET "/register" for 127.0.0.1 at 2018-01-29 14:54:58 -0700
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/current_user_concern.rb:2:in `<module:CurrentUserConcern>'
+app/controllers/concerns/current_user_concern.rb:1:in `<top (required)>'
+app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:55:03 -0700
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/current_user_concern.rb:2:in `<module:CurrentUserConcern>'
+app/controllers/concerns/current_user_concern.rb:1:in `<top (required)>'
+app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/pages_controller.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:56:15 -0700
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/current_user_concern.rb:2:in `<module:CurrentUserConcern>'
+app/controllers/concerns/current_user_concern.rb:1:in `<top (required)>'
+app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/pages_controller.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:56:34 -0700
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/concerns/current_user_concern.rb:2:in `<module:CurrentUserConcern>'
+app/controllers/concerns/current_user_concern.rb:1:in `<top (required)>'
+app/controllers/application_controller.rb:5:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/pages_controller.rb:1:in `<top (required)>'
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-29 14:57:34 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 225ms (Views: 204.8ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-29 14:58:16 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (1.1ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 104ms (Views: 69.4ms | ActiveRecord: 13.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-01-29 14:58:21 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 64ms (Views: 47.2ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-01-29 14:58:27 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
