@@ -804,3 +804,42 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 257ms (Views: 224.5ms | ActiveRecord: 14.4ms)
 
 
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-01-29 13:59:51 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/application
+  Rendered portfolios/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 299ms (Views: 235.7ms | ActiveRecord: 12.7ms)
+
+
+Started POST "/portfolios" for 127.0.0.1 at 2018-01-29 14:00:03 -0700
+Processing by PortfoliosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTKH8HaIDVr2z3hWlaVsfu8SuEl0eDGr/9pKd4VW1aUzo36vqWHn3/zD9xqggbdnCNa8EU22jVwa3yxUuH6OcQ==", "portfolio"=>{"title"=>"yuikyuik", "subtitle"=>"yuikyuik", "body"=>"yuikyuikyu", "technologies_attributes"=>{"0"=>{"name"=>"ikkiuku"}, "1"=>{"name"=>"iukuukik"}, "2"=>{"name"=>"ikukikik"}}}, "commit"=>"Create Portfolio"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.5ms)[0m  [1m[32mINSERT INTO "portfolios" ("title", "subtitle", "body", "main_image", "thumb_image", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["title", "yuikyuik"], ["subtitle", "yuikyuik"], ["body", "yuikyuikyu"], ["main_image", "http://via.placeholder.com/600x300"], ["thumb_image", "http://via.placeholder.com/500x200"], ["created_at", "2018-01-29 21:00:03.979589"], ["updated_at", "2018-01-29 21:00:03.979589"]]
+  [1m[35mSQL (7.7ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "ikkiuku"], ["portfolio_id", 10], ["created_at", "2018-01-29 21:00:03.987639"], ["updated_at", "2018-01-29 21:00:03.987639"]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "iukuukik"], ["portfolio_id", 10], ["created_at", "2018-01-29 21:00:03.996744"], ["updated_at", "2018-01-29 21:00:03.996744"]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "technologies" ("name", "portfolio_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "ikukikik"], ["portfolio_id", 10], ["created_at", "2018-01-29 21:00:03.998581"], ["updated_at", "2018-01-29 21:00:03.998581"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/portfolios
+Completed 302 Found in 27ms (ActiveRecord: 16.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-29 14:00:04 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/application
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolio/10" for 127.0.0.1 at 2018-01-29 14:00:08 -0700
+Processing by PortfoliosController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering portfolios/show.html.erb within layouts/application
+  [1m[36mTechnology Load (0.5ms)[0m  [1m[34mSELECT "technologies".* FROM "technologies" WHERE "technologies"."portfolio_id" = $1[0m  [["portfolio_id", 10]]
+  Rendered portfolios/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 33ms (Views: 24.5ms | ActiveRecord: 1.2ms)
+
+
