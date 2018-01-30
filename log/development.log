@@ -4580,3 +4580,611 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:01:33 -0700
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:01:33 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#index as HTML
+  [1m[35m (24.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/portfolios (19.7ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (86.6ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 270ms (Views: 239.6ms | ActiveRecord: 8.4ms)
+
+
+  Rendered shared/_nav.html.erb (0.2ms)
+Completed 200 OK in 260ms (Views: 165.7ms | ActiveRecord: 78.6ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:01:33 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/portfolios (3.4ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolios/new" for 127.0.0.1 at 2018-01-30 14:01:40 -0700
+Processing by PortfoliosController#new as HTML
+  Rendering portfolios/new.html.erb within layouts/portfolios
+  Rendered portfolios/_form.html.erb (15.0ms)
+  Rendered portfolios/new.html.erb within layouts/portfolios (17.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 73ms (Views: 37.7ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:01:42 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (29.7ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 62ms (Views: 39.1ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:01:42 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.8ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (6.4ms)
+  Rendered shared/_nav.html.erb (7.6ms)
+Completed 200 OK in 37ms (Views: 32.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:02:05 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/blog (4.8ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:02:05 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/blog (3.8ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:02:05 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/blog (6.1ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs/my-blog-post-2/edit" for 127.0.0.1 at 2018-01-30 14:02:07 -0700
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"my-blog-post-2"}
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."slug" = $1 LIMIT $2[0m  [["slug", "my-blog-post-2"], ["LIMIT", 1]]
+  Rendering blogs/edit.html.erb within layouts/blog
+  Rendered blogs/_form.html.erb (2.5ms)
+  Rendered blogs/edit.html.erb within layouts/blog (4.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 24.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:02:11 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/blog (5.8ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 32.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/blogs/new" for 127.0.0.1 at 2018-01-30 14:02:13 -0700
+Processing by BlogsController#new as HTML
+  Rendering blogs/new.html.erb within layouts/blog
+  Rendered blogs/_form.html.erb (1.8ms)
+  Rendered blogs/new.html.erb within layouts/blog (4.5ms)
+  Rendered shared/_nav.html.erb (0.9ms)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:02:14 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered blogs/index.html.erb within layouts/blog (5.7ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 26.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/blogs/my-blog-post-2/edit" for 127.0.0.1 at 2018-01-30 14:10:15 -0700
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"my-blog-post-2"}
+  [1m[36mBlog Load (1.6ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."slug" = $1 LIMIT $2[0m  [["slug", "my-blog-post-2"], ["LIMIT", 1]]
+  Rendering blogs/edit.html.erb within layouts/blog
+  Rendered blogs/_form.html.erb (2.2ms)
+  Rendered blogs/edit.html.erb within layouts/blog (5.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 26.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:10:18 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (0.6ms)
+  Rendered blogs/index.html.erb within layouts/blog (4.8ms)
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/blogs/_blog.html.erb:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/blogs/_blog.html.erb:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/blogs/index.html.erb:15:in `_app_views_blogs_index_html_erb__1030971140495808790_70115140036760'
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:10:30 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (0.7ms)
+  Rendered blogs/index.html.erb within layouts/blog (4.7ms)
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/blogs/_blog.html.erb:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/blogs/_blog.html.erb:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/blogs/index.html.erb:15:in `_app_views_blogs_index_html_erb__1030971140495808790_70115187711340'
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:10:38 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (0.7ms)
+  Rendered blogs/index.html.erb within layouts/blog (4.4ms)
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.5ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/blogs/_blog.html.erb:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/blogs/_blog.html.erb:11: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/blogs/index.html.erb:15:in `_app_views_blogs_index_html_erb__1030971140495808790_70115179343920'
+Started GET "/?q=tinder" for 127.0.0.1 at 2018-01-30 14:10:39 -0700
+Processing by PagesController#home as HTML
+  Parameters: {"q"=>"tinder"}
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.6ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:10:40 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:11:01 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  Rendered blogs/index.html.erb within layouts/blog (0.9ms)
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/blogs/index.html.erb:25: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/blogs/index.html.erb:25: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:11:01 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  Rendered blogs/index.html.erb within layouts/blog (0.6ms)
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/blogs/index.html.erb:25: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/blogs/index.html.erb:25: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:11:03 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:11:03 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.4ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 34ms (Views: 30.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:11:40 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.7ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (5.0ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:11:42 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (3.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (6.9ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:11:42 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (2.8ms)
+  Rendered blogs/index.html.erb within layouts/blog (6.6ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 26ms (Views: 22.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs/my-blog-post-2" for 127.0.0.1 at 2018-01-30 14:12:30 -0700
+Processing by BlogsController#show as HTML
+  Parameters: {"id"=>"my-blog-post-2"}
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."slug" = $1 LIMIT $2[0m  [["slug", "my-blog-post-2"], ["LIMIT", 1]]
+  Rendering blogs/show.html.erb within layouts/blog
+  Rendered blogs/show.html.erb within layouts/blog (6.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 24.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:12:31 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (3.2ms)
+  Rendered blogs/index.html.erb within layouts/blog (8.0ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 32ms (Views: 28.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:28:17 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered blogs/_blog.html.erb (248.9ms)
+  Rendered blogs/index.html.erb within layouts/blog (252.1ms)
+Completed 401 Unauthorized in 289ms (ActiveRecord: 8.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `blog' for #<#<Class:0x007fb6b43d7418>:0x007fb6b5564870>
+Did you mean?  @blogs):
+    1:  <tr>
+    2:     <td><%= blog.title.upcase %></td>
+    3:     <td><%= blog.body %></td>
+    4:     <td><%= link_to blog.status, toggle_status_blog_path(blog) %></td>
+    5:     <td><%= link_to 'Show', blog %></td>
+  
+app/views/blogs/_blog.html.erb:2:in `_app_views_blogs__blog_html_erb___2039877072606714171_70211351307200'
+app/views/blogs/index.html.erb:15:in `_app_views_blogs_index_html_erb__2174116809362304606_70211342362840'
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:28:27 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (1.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (19.9ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 189ms (Views: 176.1ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-01-30 14:28:43 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-01-30 14:28:43 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_nav.html.erb (1.4ms)
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:28:44 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.4ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (5.4ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 46ms (Views: 41.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:28:45 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Blog Load (0.0ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered blogs/_blog.html.erb (213.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (215.7ms)
+Completed 401 Unauthorized in 225ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `blog' for #<#<Class:0x007fb6b43d7418>:0x007fb6ba67f778>
+Did you mean?  @blogs):
+    1:  <tr>
+    2:     <td><%= blog.title %></td>
+    3:     <td><%= blog.body %></td>
+    4:     <td><%= link_to blog.status, toggle_status_blog_path(blog) %></td>
+    5:     <td><%= link_to 'Show', blog %></td>
+  
+app/views/blogs/_blog.html.erb:2:in `_app_views_blogs__blog_html_erb___2039877072606714171_70211394332400'
+app/views/blogs/index.html.erb:15:in `_app_views_blogs_index_html_erb__2174116809362304606_70211394103620'
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:28:47 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.4ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (4.8ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:29:04 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/portfolios (16.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 45ms (Views: 31.2ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:29:04 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/portfolios (3.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:29:05 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (3.5ms)
+  Rendered blogs/index.html.erb within layouts/blog (7.9ms)
+  Rendered shared/_nav.html.erb (1.1ms)
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:29:05 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (4.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (8.4ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs/my-blog-post-2/edit" for 127.0.0.1 at 2018-01-30 14:29:08 -0700
+Processing by BlogsController#edit as HTML
+  Parameters: {"id"=>"my-blog-post-2"}
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" WHERE "blogs"."slug" = $1 LIMIT $2[0m  [["slug", "my-blog-post-2"], ["LIMIT", 1]]
+  Rendering blogs/edit.html.erb within layouts/blog
+  Rendered blogs/_form.html.erb (15.5ms)
+  Rendered blogs/edit.html.erb within layouts/blog (18.1ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 53ms (Views: 46.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:29:09 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (5.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (10.0ms)
+  Rendered shared/_nav.html.erb (1.1ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:53:30 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered portfolios/index.html.erb within layouts/portfolios (21.6ms)
+Completed 401 Unauthorized in 33ms (ActiveRecord: 6.5ms)
+
+
+  
+ActionView::Template::Error (Missing partial portfolios/_portfolio with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views"
+  * "/Users/mac/.rvm/gems/ruby-2.4.1/gems/devise-4.4.1/app/views"
+):
+    3: <%= link_to "Create New Item", new_portfolio_url%>
+    4: 
+    5: 
+    6: <%= render @portfolio_items %>
+  
+app/views/portfolios/index.html.erb:6:in `_app_views_portfolios_index_html_erb__1382573853670376326_70211339537500'
+Started GET "/blogs" for 127.0.0.1 at 2018-01-30 14:53:33 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [9 times] (3.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (19.1ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 50ms (Views: 38.7ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:53:42 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (0.8ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (6.1ms)
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/portfolios/_portfolio_item.html.erb:12: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/portfolios/_portfolio_item.html.erb:12: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/portfolios/index.html.erb:6:in `_app_views_portfolios_index_html_erb__1382573853670376326_70211391335300'
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:53:42 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (37.0ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (0.8ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (61.9ms)
+Completed 401 Unauthorized in 69ms (ActiveRecord: 49.7ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/portfolios/_portfolio_item.html.erb:12: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/portfolios/_portfolio_item.html.erb:12: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/portfolios/index.html.erb:6:in `_app_views_portfolios_index_html_erb__1382573853670376326_70211403846160'
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:54:20 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  Rendered portfolios/index.html.erb within layouts/portfolios (0.7ms)
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/portfolios/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/portfolios/index.html.erb:10: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:54:32 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (0.8ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.2ms)
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/mac/CodeProjects/devcamp_portfolio/devcamp_project/app/views/portfolios/_portfolio_item.html.erb:12: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/portfolios/_portfolio_item.html.erb:12: syntax error, unexpected keyword_ensure, expecting end-of-input
+app/views/portfolios/index.html.erb:6:in `_app_views_portfolios_index_html_erb__1382573853670376326_70211394336300'
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:55:01 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (2.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (6.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:55:15 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.3ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (14.5ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 44ms (Views: 33.2ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-30 14:55:16 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mSkill Load (0.6ms)[0m  [1m[34mSELECT  "skills".* FROM "skills" LIMIT $1[0m  [["LIMIT", 11]]
+  Rendered pages/home.html.erb within layouts/application (5.4ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 32ms (Views: 28.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-01-30 14:55:16 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.3ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 63ms (Views: 40.9ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:55:17 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (2.3ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (12.5ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 38ms (Views: 34.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-01-30 14:55:17 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (2.6ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (7.2ms)
+  Rendered shared/_nav.html.erb (0.9ms)
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.4ms)
+
+
