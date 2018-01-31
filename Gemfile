@@ -54,3 +54,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1'
 
 gem 'devise', '~> 4.4', '>= 4.4.1'
+
+gem 'bootstrap', '~> 4.0.0'
+
+gem 'jquery-rails'
