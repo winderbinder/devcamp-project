@@ -15,4 +15,7 @@ module ApplicationHelper
      content_tag(:p, greeting, class: "source-greeting")
     end 
   end
+  def copyright_generator
+    AlonsoViewTool::Renderer.copyright "Alonso Hernandez", "All rights reserved"
+  end
 end

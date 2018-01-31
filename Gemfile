@@ -58,3 +58,5 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails'
+
+gem 'Alonso_gem', git: 'https://github.com/winderbinder/Alonso_gem'
