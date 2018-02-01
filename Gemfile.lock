@@ -1,12 +1,7 @@
-GIT
-  remote: https://github.com/winderbinder/Alonso_gem
-  revision: d3f0dd5aa1d5e32d272ed8779aa414ebfaa067fc
-  specs:
-    Alonso_gem (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    Alonso_gem (0.1.0)
     actioncable (5.1.4)
       actionpack (= 5.1.4)
       nio4r (~> 2.0)
@@ -196,7 +191,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Alonso_gem!
+  Alonso_gem (~> 0.1.0)
   bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)

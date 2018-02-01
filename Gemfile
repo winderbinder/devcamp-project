@@ -59,4 +59,4 @@ gem 'bootstrap', '~> 4.0.0'
 
 gem 'jquery-rails'
 
-gem 'Alonso_gem', git: 'https://github.com/winderbinder/Alonso_gem'
+gem 'Alonso_gem', ' ~> 0.1.0 '
