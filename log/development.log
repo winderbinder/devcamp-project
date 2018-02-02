@@ -10106,3 +10106,108 @@ Processing by PagesController#contact as HTML
 Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 16:01:49 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (4.0ms)
+  Rendered shared/_application_nav.html.erb (42.9ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 415ms (Views: 394.1ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 16:01:52 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (12.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (29.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 89ms (Views: 71.5ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 16:01:52 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.4ms)
+  Rendered blogs/index.html.erb within layouts/blog (9.2ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 64ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 16:01:55 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (7.1ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (23.6ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 87ms (Views: 70.2ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 16:01:55 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (5.2ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (8.9ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 53.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 16:01:57 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (5.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (9.2ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 58ms (Views: 53.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 16:01:57 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.6ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 16:01:58 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 16:01:59 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 16:02:00 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 16:02:01 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
