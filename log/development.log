@@ -8732,3 +8732,404 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-02 10:47:13 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 524ms (Views: 469.5ms | ActiveRecord: 28.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 10:49:09 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 10:50:59 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 44.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 10:51:01 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 52ms (Views: 48.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 10:51:02 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 59ms (Views: 55.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 10:51:02 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 53ms (Views: 48.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 10:51:08 -0700
+Processing by BlogsController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (7.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (13.9ms)
+  Rendered blogs/index.html.erb within layouts/blog (38.5ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 95ms (Views: 75.8ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 10:51:08 -0700
+Processing by BlogsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (4.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (7.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 10:51:12 -0700
+Processing by PortfoliosController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (6.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (3.3ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (30.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 92ms (Views: 66.2ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 10:51:12 -0700
+Processing by PortfoliosController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (2.7ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (6.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 10:51:13 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 10:51:13 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:02 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 64ms (Views: 59.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:03 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:04 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:04 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2018-02-02 11:17:07 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aIuu9AX90xLOSljTHLFx3EUOmNpf5rce98uk9IbuG6AYjsIXDdDKlo9wOtPfSrudSoQm/i5Y6LoqdAJNePM6Dg=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:07 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.8ms)
+Completed 200 OK in 66ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-02-02 11:17:08 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.9ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:10 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:16 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+Completed 200 OK in 50ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 11:17:16 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.9ms)
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 11:17:18 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (8.6ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+Completed 200 OK in 65ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 11:17:18 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.8ms)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:20 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (0.6ms)
+Completed 200 OK in 54ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 11:17:44 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 11:17:50 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.9ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:17:51 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (0.8ms)
+Completed 200 OK in 51ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:27:30 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+  Rendered shared/_application_nav.html.erb (43.2ms)
+  Rendered shared/_application_footer.html.erb (10.4ms)
+Completed 401 Unauthorized in 2735ms (ActiveRecord: 8.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ApplicationHelper::DevcampViewTool):
+    1: <div class="mastfoot">
+    2:   <div class="inner">
+    3:     <p><%= copyright_generator %></p>
+    4:   </div>
+    5: </div>
+  
+app/helpers/application_helper.rb:20:in `copyright_generator'
+app/views/shared/_application_footer.html.erb:3:in `_app_views_shared__application_footer_html_erb__2780945584245580761_70145392308380'
+app/views/layouts/application.html.erb:25:in `_app_views_layouts_application_html_erb__1238504658216576957_70145390590520'
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:29:23 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_application_nav.html.erb (31.7ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 91ms (Views: 75.1ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:29:38 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (31.5ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 88ms (Views: 72.7ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-02-02 11:34:41 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.5ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2018-02-02 11:34:42 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.4ms)
+  Rendered shared/_application_nav.html.erb (1.4ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-02-02 11:34:43 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered shared/_application_nav.html.erb (1.4ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:34:45 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 11:35:57 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (7.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (24.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 401 Unauthorized in 81ms (ActiveRecord: 6.1ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    16: 
+    17:     <%= render "shared/nav", location: 'bottom' %>
+    18: 
+    19:     <%= login_helper %>
+    20: 
+    21:     <%= yield %>
+    22: 
+  
+app/helpers/application_helper.rb:2:in `login_helper'
+app/views/layouts/blog.html.erb:19:in `_app_views_layouts_blog_html_erb__280683615655783625_70145473495340'
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:36:02 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.2ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 11:36:03 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.9ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (5.8ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (21.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 401 Unauthorized in 75ms (ActiveRecord: 6.2ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    16: 
+    17:     <%= render "shared/nav", location: 'top' %>
+    18: 
+    19:     <%= login_helper %>
+    20: 
+    21:     <%= yield %>
+    22: 
+  
+app/helpers/application_helper.rb:2:in `login_helper'
+app/views/layouts/portfolios.html.erb:19:in `_app_views_layouts_portfolios_html_erb__1873539998517093279_70145464979640'
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:36:05 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.3ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 11:36:07 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
