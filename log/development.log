@@ -11030,3 +11030,2682 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-02 17:33:54 -0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered shared/_application_nav.html.erb (37.5ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 437ms (Views: 407.1ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 17:33:58 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 17:33:59 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.3ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 17:34:00 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (3.3ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 17:34:02 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.8ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (10.9ms)
+  Rendered blogs/index.html.erb within layouts/blog (28.3ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 71.8ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 17:34:02 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.2ms)
+  Rendered blogs/index.html.erb within layouts/blog (9.2ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+Completed 200 OK in 53ms (Views: 49.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 17:54:31 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (11.5ms)
+  Rendered blogs/index.html.erb within layouts/blog (33.4ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.3ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.3ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_nav.html.erb (8.9ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.3ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.8ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_nav.html.erb (0.4ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.5ms)
+  Rendered shared/_blog_nav.html.erb (0.7ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_nav.html.erb (0.6ms)
+  Rendered shared/_blog_sidebar.html.erb (26.1ms)
+  Rendered shared/_blog_sidebar.html.erb (44.7ms)
+  Rendered shared/_blog_sidebar.html.erb (60.1ms)
+  Rendered shared/_blog_sidebar.html.erb (75.4ms)
+  Rendered shared/_blog_sidebar.html.erb (90.1ms)
+  Rendered shared/_blog_sidebar.html.erb (104.6ms)
+  Rendered shared/_blog_sidebar.html.erb (118.9ms)
+  Rendered shared/_blog_sidebar.html.erb (134.2ms)
+  Rendered shared/_blog_sidebar.html.erb (148.3ms)
+  Rendered shared/_blog_sidebar.html.erb (169.0ms)
+  Rendered shared/_blog_sidebar.html.erb (184.1ms)
+  Rendered shared/_blog_sidebar.html.erb (199.6ms)
+  Rendered shared/_blog_sidebar.html.erb (215.4ms)
+  Rendered shared/_blog_sidebar.html.erb (235.1ms)
+  Rendered shared/_blog_sidebar.html.erb (251.8ms)
+  Rendered shared/_blog_sidebar.html.erb (265.3ms)
+  Rendered shared/_blog_sidebar.html.erb (281.2ms)
+  Rendered shared/_blog_sidebar.html.erb (297.0ms)
+  Rendered shared/_blog_sidebar.html.erb (311.2ms)
+  Rendered shared/_blog_sidebar.html.erb (326.3ms)
+  Rendered shared/_blog_sidebar.html.erb (349.4ms)
+  Rendered shared/_blog_sidebar.html.erb (364.9ms)
+  Rendered shared/_blog_sidebar.html.erb (380.0ms)
+  Rendered shared/_blog_sidebar.html.erb (394.7ms)
+  Rendered shared/_blog_sidebar.html.erb (410.6ms)
+  Rendered shared/_blog_sidebar.html.erb (427.3ms)
+  Rendered shared/_blog_sidebar.html.erb (442.4ms)
+  Rendered shared/_blog_sidebar.html.erb (457.6ms)
+  Rendered shared/_blog_sidebar.html.erb (473.1ms)
+  Rendered shared/_blog_sidebar.html.erb (487.7ms)
+  Rendered shared/_blog_sidebar.html.erb (509.4ms)
+  Rendered shared/_blog_sidebar.html.erb (526.7ms)
+  Rendered shared/_blog_sidebar.html.erb (542.7ms)
+  Rendered shared/_blog_sidebar.html.erb (557.9ms)
+  Rendered shared/_blog_sidebar.html.erb (573.5ms)
+  Rendered shared/_blog_sidebar.html.erb (588.2ms)
+  Rendered shared/_blog_sidebar.html.erb (602.9ms)
+  Rendered shared/_blog_sidebar.html.erb (617.9ms)
+  Rendered shared/_blog_sidebar.html.erb (632.0ms)
+  Rendered shared/_blog_sidebar.html.erb (646.9ms)
+  Rendered shared/_blog_sidebar.html.erb (663.4ms)
+  Rendered shared/_blog_sidebar.html.erb (685.3ms)
+  Rendered shared/_blog_sidebar.html.erb (700.8ms)
+  Rendered shared/_blog_sidebar.html.erb (715.8ms)
+  Rendered shared/_blog_sidebar.html.erb (731.2ms)
+  Rendered shared/_blog_sidebar.html.erb (746.3ms)
+  Rendered shared/_blog_sidebar.html.erb (761.2ms)
+  Rendered shared/_blog_sidebar.html.erb (776.2ms)
+  Rendered shared/_blog_sidebar.html.erb (790.7ms)
+  Rendered shared/_blog_sidebar.html.erb (805.8ms)
+  Rendered shared/_blog_sidebar.html.erb (823.5ms)
+  Rendered shared/_blog_sidebar.html.erb (847.1ms)
+  Rendered shared/_blog_sidebar.html.erb (862.6ms)
+  Rendered shared/_blog_sidebar.html.erb (877.8ms)
+  Rendered shared/_blog_sidebar.html.erb (892.0ms)
+  Rendered shared/_blog_sidebar.html.erb (908.2ms)
+  Rendered shared/_blog_sidebar.html.erb (923.7ms)
+  Rendered shared/_blog_sidebar.html.erb (938.5ms)
+  Rendered shared/_blog_sidebar.html.erb (954.4ms)
+  Rendered shared/_blog_sidebar.html.erb (970.2ms)
+  Rendered shared/_blog_sidebar.html.erb (985.2ms)
+  Rendered shared/_blog_sidebar.html.erb (999.8ms)
+  Rendered shared/_blog_sidebar.html.erb (1022.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1037.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1055.1ms)
+  Rendered shared/_blog_sidebar.html.erb (1069.4ms)
+  Rendered shared/_blog_sidebar.html.erb (1084.2ms)
+  Rendered shared/_blog_sidebar.html.erb (1101.1ms)
+  Rendered shared/_blog_sidebar.html.erb (1118.9ms)
+  Rendered shared/_blog_sidebar.html.erb (1135.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1149.9ms)
+  Rendered shared/_blog_sidebar.html.erb (1164.6ms)
+  Rendered shared/_blog_sidebar.html.erb (1187.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1204.2ms)
+  Rendered shared/_blog_sidebar.html.erb (1219.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1234.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1249.8ms)
+  Rendered shared/_blog_sidebar.html.erb (1265.2ms)
+  Rendered shared/_blog_sidebar.html.erb (1279.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1295.1ms)
+  Rendered shared/_blog_sidebar.html.erb (1311.9ms)
+  Rendered shared/_blog_sidebar.html.erb (1328.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1344.9ms)
+  Rendered shared/_blog_sidebar.html.erb (1367.6ms)
+  Rendered shared/_blog_sidebar.html.erb (1383.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1398.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1414.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1431.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1447.4ms)
+  Rendered shared/_blog_sidebar.html.erb (1462.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1485.8ms)
+  Rendered shared/_blog_sidebar.html.erb (1508.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1521.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1546.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1562.9ms)
+  Rendered shared/_blog_sidebar.html.erb (1578.6ms)
+  Rendered shared/_blog_sidebar.html.erb (1594.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1607.8ms)
+  Rendered shared/_blog_sidebar.html.erb (1622.1ms)
+  Rendered shared/_blog_sidebar.html.erb (1636.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1653.2ms)
+  Rendered shared/_blog_sidebar.html.erb (1669.6ms)
+  Rendered shared/_blog_sidebar.html.erb (1683.8ms)
+  Rendered shared/_blog_sidebar.html.erb (1698.2ms)
+  Rendered shared/_blog_sidebar.html.erb (1723.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1738.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1754.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1770.9ms)
+  Rendered shared/_blog_sidebar.html.erb (1785.8ms)
+  Rendered shared/_blog_sidebar.html.erb (1799.7ms)
+  Rendered shared/_blog_sidebar.html.erb (1816.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1831.5ms)
+  Rendered shared/_blog_sidebar.html.erb (1845.2ms)
+  Rendered shared/_blog_sidebar.html.erb (1859.3ms)
+  Rendered shared/_blog_sidebar.html.erb (1897.6ms)
+  Rendered shared/_blog_sidebar.html.erb (1919.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1940.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1957.0ms)
+  Rendered shared/_blog_sidebar.html.erb (1984.6ms)
+  Rendered shared/_blog_sidebar.html.erb (2010.2ms)
+  Rendered shared/_blog_sidebar.html.erb (2027.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2045.4ms)
+  Rendered shared/_blog_sidebar.html.erb (2061.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2076.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2092.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2115.2ms)
+  Rendered shared/_blog_sidebar.html.erb (2131.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2145.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2160.3ms)
+  Rendered shared/_blog_sidebar.html.erb (2174.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2188.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2204.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2219.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2234.3ms)
+  Rendered shared/_blog_sidebar.html.erb (2247.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2269.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2284.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2300.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2314.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2329.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2343.6ms)
+  Rendered shared/_blog_sidebar.html.erb (2357.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2370.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2385.4ms)
+  Rendered shared/_blog_sidebar.html.erb (2399.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2413.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2434.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2449.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2463.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2476.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2489.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2506.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2520.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2534.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2551.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2565.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2578.3ms)
+  Rendered shared/_blog_sidebar.html.erb (2600.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2615.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2633.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2646.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2662.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2677.3ms)
+  Rendered shared/_blog_sidebar.html.erb (2691.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2704.2ms)
+  Rendered shared/_blog_sidebar.html.erb (2719.8ms)
+  Rendered shared/_blog_sidebar.html.erb (2732.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2752.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2768.6ms)
+  Rendered shared/_blog_sidebar.html.erb (2783.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2799.6ms)
+  Rendered shared/_blog_sidebar.html.erb (2815.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2828.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2844.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2860.0ms)
+  Rendered shared/_blog_sidebar.html.erb (2877.3ms)
+  Rendered shared/_blog_sidebar.html.erb (2892.4ms)
+  Rendered shared/_blog_sidebar.html.erb (2906.7ms)
+  Rendered shared/_blog_sidebar.html.erb (2929.1ms)
+  Rendered shared/_blog_sidebar.html.erb (2944.4ms)
+  Rendered shared/_blog_sidebar.html.erb (2958.9ms)
+  Rendered shared/_blog_sidebar.html.erb (2972.5ms)
+  Rendered shared/_blog_sidebar.html.erb (2986.9ms)
+  Rendered shared/_blog_sidebar.html.erb (3001.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3017.2ms)
+  Rendered shared/_blog_sidebar.html.erb (3030.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3046.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3062.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3077.0ms)
+  Rendered shared/_blog_sidebar.html.erb (3102.5ms)
+  Rendered shared/_blog_sidebar.html.erb (3118.2ms)
+  Rendered shared/_blog_sidebar.html.erb (3133.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3148.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3161.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3176.5ms)
+  Rendered shared/_blog_sidebar.html.erb (3191.0ms)
+  Rendered shared/_blog_sidebar.html.erb (3206.0ms)
+  Rendered shared/_blog_sidebar.html.erb (3221.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3235.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3258.9ms)
+  Rendered shared/_blog_sidebar.html.erb (3275.0ms)
+  Rendered shared/_blog_sidebar.html.erb (3289.6ms)
+  Rendered shared/_blog_sidebar.html.erb (3304.0ms)
+  Rendered shared/_blog_sidebar.html.erb (3318.6ms)
+  Rendered shared/_blog_sidebar.html.erb (3331.2ms)
+  Rendered shared/_blog_sidebar.html.erb (3344.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3359.1ms)
+  Rendered shared/_blog_sidebar.html.erb (3372.5ms)
+  Rendered shared/_blog_sidebar.html.erb (3386.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3400.9ms)
+  Rendered shared/_blog_sidebar.html.erb (3421.1ms)
+  Rendered shared/_blog_sidebar.html.erb (3435.2ms)
+  Rendered shared/_blog_sidebar.html.erb (3450.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3463.5ms)
+  Rendered shared/_blog_sidebar.html.erb (3481.1ms)
+  Rendered shared/_blog_sidebar.html.erb (3495.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3510.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3524.9ms)
+  Rendered shared/_blog_sidebar.html.erb (3539.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3557.1ms)
+  Rendered shared/_blog_sidebar.html.erb (3571.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3596.1ms)
+  Rendered shared/_blog_sidebar.html.erb (3611.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3625.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3639.2ms)
+  Rendered shared/_blog_sidebar.html.erb (3652.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3666.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3679.6ms)
+  Rendered shared/_blog_sidebar.html.erb (3694.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3708.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3721.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3741.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3756.5ms)
+  Rendered shared/_blog_sidebar.html.erb (3771.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3786.6ms)
+  Rendered shared/_blog_sidebar.html.erb (3800.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3814.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3828.5ms)
+  Rendered shared/_blog_sidebar.html.erb (3843.0ms)
+  Rendered shared/_blog_sidebar.html.erb (3856.8ms)
+  Rendered shared/_blog_sidebar.html.erb (3870.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3885.2ms)
+  Rendered shared/_blog_sidebar.html.erb (3904.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3921.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3935.7ms)
+  Rendered shared/_blog_sidebar.html.erb (3949.3ms)
+  Rendered shared/_blog_sidebar.html.erb (3962.6ms)
+  Rendered shared/_blog_sidebar.html.erb (3976.4ms)
+  Rendered shared/_blog_sidebar.html.erb (3993.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4008.4ms)
+  Rendered shared/_blog_sidebar.html.erb (4023.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4037.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4051.3ms)
+  Rendered shared/_blog_sidebar.html.erb (4074.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4088.8ms)
+  Rendered shared/_blog_sidebar.html.erb (4104.5ms)
+  Rendered shared/_blog_sidebar.html.erb (4119.0ms)
+  Rendered shared/_blog_sidebar.html.erb (4135.0ms)
+  Rendered shared/_blog_sidebar.html.erb (4151.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4165.5ms)
+  Rendered shared/_blog_sidebar.html.erb (4180.8ms)
+  Rendered shared/_blog_sidebar.html.erb (4198.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4212.4ms)
+  Rendered shared/_blog_sidebar.html.erb (4228.5ms)
+  Rendered shared/_blog_sidebar.html.erb (4252.0ms)
+  Rendered shared/_blog_sidebar.html.erb (4266.2ms)
+  Rendered shared/_blog_sidebar.html.erb (4281.8ms)
+  Rendered shared/_blog_sidebar.html.erb (4297.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4311.6ms)
+  Rendered shared/_blog_sidebar.html.erb (4326.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4341.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4355.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4372.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4385.5ms)
+  Rendered shared/_blog_sidebar.html.erb (4405.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4421.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4436.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4451.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4466.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4481.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4496.6ms)
+  Rendered shared/_blog_sidebar.html.erb (4511.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4526.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4540.8ms)
+  Rendered shared/_blog_sidebar.html.erb (4556.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4579.0ms)
+  Rendered shared/_blog_sidebar.html.erb (4596.2ms)
+  Rendered shared/_blog_sidebar.html.erb (4611.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4626.8ms)
+  Rendered shared/_blog_sidebar.html.erb (4642.4ms)
+  Rendered shared/_blog_sidebar.html.erb (4657.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4672.3ms)
+  Rendered shared/_blog_sidebar.html.erb (4687.7ms)
+  Rendered shared/_blog_sidebar.html.erb (4704.5ms)
+  Rendered shared/_blog_sidebar.html.erb (4720.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4736.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4759.3ms)
+  Rendered shared/_blog_sidebar.html.erb (4777.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4791.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4807.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4822.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4836.2ms)
+  Rendered shared/_blog_sidebar.html.erb (4850.6ms)
+  Rendered shared/_blog_sidebar.html.erb (4866.2ms)
+  Rendered shared/_blog_sidebar.html.erb (4881.3ms)
+  Rendered shared/_blog_sidebar.html.erb (4896.5ms)
+  Rendered shared/_blog_sidebar.html.erb (4913.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4937.3ms)
+  Rendered shared/_blog_sidebar.html.erb (4956.1ms)
+  Rendered shared/_blog_sidebar.html.erb (4969.9ms)
+  Rendered shared/_blog_sidebar.html.erb (4984.6ms)
+  Rendered shared/_blog_sidebar.html.erb (4998.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5012.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5025.1ms)
+  Rendered shared/_blog_sidebar.html.erb (5040.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5056.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5069.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5083.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5103.6ms)
+  Rendered shared/_blog_sidebar.html.erb (5117.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5134.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5148.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5163.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5177.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5190.8ms)
+  Rendered shared/_blog_sidebar.html.erb (5203.6ms)
+  Rendered shared/_blog_sidebar.html.erb (5218.6ms)
+  Rendered shared/_blog_sidebar.html.erb (5232.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5246.8ms)
+  Rendered shared/_blog_sidebar.html.erb (5266.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5283.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5298.5ms)
+  Rendered shared/_blog_sidebar.html.erb (5314.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5329.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5343.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5358.1ms)
+  Rendered shared/_blog_sidebar.html.erb (5370.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5384.1ms)
+  Rendered shared/_blog_sidebar.html.erb (5399.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5418.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5433.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5448.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5463.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5478.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5492.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5505.8ms)
+  Rendered shared/_blog_sidebar.html.erb (5519.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5534.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5547.6ms)
+  Rendered shared/_blog_sidebar.html.erb (5563.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5584.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5598.8ms)
+  Rendered shared/_blog_sidebar.html.erb (5613.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5627.5ms)
+  Rendered shared/_blog_sidebar.html.erb (5640.1ms)
+  Rendered shared/_blog_sidebar.html.erb (5653.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5667.6ms)
+  Rendered shared/_blog_sidebar.html.erb (5681.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5694.8ms)
+  Rendered shared/_blog_sidebar.html.erb (5709.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5722.6ms)
+  Rendered shared/_blog_sidebar.html.erb (5741.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5757.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5772.7ms)
+  Rendered shared/_blog_sidebar.html.erb (5786.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5800.1ms)
+  Rendered shared/_blog_sidebar.html.erb (5814.0ms)
+  Rendered shared/_blog_sidebar.html.erb (5828.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5843.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5856.7ms)
+  Rendered shared/_blog_sidebar.html.erb (5869.5ms)
+  Rendered shared/_blog_sidebar.html.erb (5884.3ms)
+  Rendered shared/_blog_sidebar.html.erb (5902.7ms)
+  Rendered shared/_blog_sidebar.html.erb (5917.2ms)
+  Rendered shared/_blog_sidebar.html.erb (5933.9ms)
+  Rendered shared/_blog_sidebar.html.erb (5948.4ms)
+  Rendered shared/_blog_sidebar.html.erb (5961.5ms)
+  Rendered shared/_blog_sidebar.html.erb (5975.8ms)
+  Rendered shared/_blog_sidebar.html.erb (5988.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6002.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6017.0ms)
+  Rendered shared/_blog_sidebar.html.erb (6032.2ms)
+  Rendered shared/_blog_sidebar.html.erb (6045.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6066.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6082.6ms)
+  Rendered shared/_blog_sidebar.html.erb (6096.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6112.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6128.2ms)
+  Rendered shared/_blog_sidebar.html.erb (6143.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6157.4ms)
+  Rendered shared/_blog_sidebar.html.erb (6170.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6184.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6197.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6212.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6232.2ms)
+  Rendered shared/_blog_sidebar.html.erb (6247.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6261.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6275.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6290.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6307.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6322.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6337.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6350.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6364.6ms)
+  Rendered shared/_blog_sidebar.html.erb (6379.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6399.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6413.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6427.6ms)
+  Rendered shared/_blog_sidebar.html.erb (6441.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6455.6ms)
+  Rendered shared/_blog_sidebar.html.erb (6470.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6485.4ms)
+  Rendered shared/_blog_sidebar.html.erb (6501.2ms)
+  Rendered shared/_blog_sidebar.html.erb (6516.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6529.7ms)
+  Rendered shared/_blog_sidebar.html.erb (6544.0ms)
+  Rendered shared/_blog_sidebar.html.erb (6565.2ms)
+  Rendered shared/_blog_sidebar.html.erb (6579.0ms)
+  Rendered shared/_blog_sidebar.html.erb (6592.7ms)
+  Rendered shared/_blog_sidebar.html.erb (6607.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6621.4ms)
+  Rendered shared/_blog_sidebar.html.erb (6636.4ms)
+  Rendered shared/_blog_sidebar.html.erb (6650.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6665.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6683.4ms)
+  Rendered shared/_blog_sidebar.html.erb (6697.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6710.7ms)
+  Rendered shared/_blog_sidebar.html.erb (6730.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6745.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6763.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6776.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6790.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6803.6ms)
+  Rendered shared/_blog_sidebar.html.erb (6818.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6835.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6849.4ms)
+  Rendered shared/_blog_sidebar.html.erb (6864.1ms)
+  Rendered shared/_blog_sidebar.html.erb (6878.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6900.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6915.5ms)
+  Rendered shared/_blog_sidebar.html.erb (6929.3ms)
+  Rendered shared/_blog_sidebar.html.erb (6946.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6961.8ms)
+  Rendered shared/_blog_sidebar.html.erb (6974.9ms)
+  Rendered shared/_blog_sidebar.html.erb (6988.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7002.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7015.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7030.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7044.2ms)
+  Rendered shared/_blog_sidebar.html.erb (7063.3ms)
+  Rendered shared/_blog_sidebar.html.erb (7077.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7096.3ms)
+  Rendered shared/_blog_sidebar.html.erb (7109.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7124.2ms)
+  Rendered shared/_blog_sidebar.html.erb (7141.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7158.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7172.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7186.1ms)
+  Rendered shared/_blog_sidebar.html.erb (7199.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7213.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7234.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7247.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7261.2ms)
+  Rendered shared/_blog_sidebar.html.erb (7276.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7292.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7307.1ms)
+  Rendered shared/_blog_sidebar.html.erb (7321.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7334.5ms)
+  Rendered shared/_blog_sidebar.html.erb (7348.6ms)
+  Rendered shared/_blog_sidebar.html.erb (7363.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7377.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7397.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7412.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7431.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7444.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7460.1ms)
+  Rendered shared/_blog_sidebar.html.erb (7473.5ms)
+  Rendered shared/_blog_sidebar.html.erb (7488.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7503.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7516.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7530.1ms)
+  Rendered shared/_blog_sidebar.html.erb (7544.5ms)
+  Rendered shared/_blog_sidebar.html.erb (7563.6ms)
+  Rendered shared/_blog_sidebar.html.erb (7579.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7595.2ms)
+  Rendered shared/_blog_sidebar.html.erb (7610.1ms)
+  Rendered shared/_blog_sidebar.html.erb (7624.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7639.1ms)
+  Rendered shared/_blog_sidebar.html.erb (7653.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7667.3ms)
+  Rendered shared/_blog_sidebar.html.erb (7681.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7694.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7709.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7723.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7742.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7758.0ms)
+  Rendered shared/_blog_sidebar.html.erb (7771.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7785.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7799.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7812.6ms)
+  Rendered shared/_blog_sidebar.html.erb (7826.5ms)
+  Rendered shared/_blog_sidebar.html.erb (7840.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7854.2ms)
+  Rendered shared/_blog_sidebar.html.erb (7868.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7884.3ms)
+  Rendered shared/_blog_sidebar.html.erb (7905.7ms)
+  Rendered shared/_blog_sidebar.html.erb (7920.2ms)
+  Rendered shared/_blog_sidebar.html.erb (7934.8ms)
+  Rendered shared/_blog_sidebar.html.erb (7950.9ms)
+  Rendered shared/_blog_sidebar.html.erb (7964.4ms)
+  Rendered shared/_blog_sidebar.html.erb (7980.5ms)
+  Rendered shared/_blog_sidebar.html.erb (7994.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8009.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8024.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8037.2ms)
+  Rendered shared/_blog_sidebar.html.erb (8051.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8071.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8084.8ms)
+  Rendered shared/_blog_sidebar.html.erb (8098.5ms)
+  Rendered shared/_blog_sidebar.html.erb (8113.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8127.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8141.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8155.6ms)
+  Rendered shared/_blog_sidebar.html.erb (8168.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8184.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8201.2ms)
+  Rendered shared/_blog_sidebar.html.erb (8214.5ms)
+  Rendered shared/_blog_sidebar.html.erb (8234.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8249.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8264.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8279.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8293.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8306.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8320.6ms)
+  Rendered shared/_blog_sidebar.html.erb (8335.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8347.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8361.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8375.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8398.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8412.5ms)
+  Rendered shared/_blog_sidebar.html.erb (8427.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8441.8ms)
+  Rendered shared/_blog_sidebar.html.erb (8455.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8470.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8485.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8499.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8512.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8527.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8541.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8561.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8577.6ms)
+  Rendered shared/_blog_sidebar.html.erb (8593.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8607.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8620.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8635.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8650.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8663.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8679.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8692.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8707.0ms)
+  Rendered shared/_blog_sidebar.html.erb (8720.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8742.8ms)
+  Rendered shared/_blog_sidebar.html.erb (8756.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8772.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8788.5ms)
+  Rendered shared/_blog_sidebar.html.erb (8802.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8817.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8831.6ms)
+  Rendered shared/_blog_sidebar.html.erb (8849.4ms)
+  Rendered shared/_blog_sidebar.html.erb (8863.8ms)
+  Rendered shared/_blog_sidebar.html.erb (8877.3ms)
+  Rendered shared/_blog_sidebar.html.erb (8891.9ms)
+  Rendered shared/_blog_sidebar.html.erb (8912.6ms)
+  Rendered shared/_blog_sidebar.html.erb (8936.1ms)
+  Rendered shared/_blog_sidebar.html.erb (8950.7ms)
+  Rendered shared/_blog_sidebar.html.erb (8964.2ms)
+  Rendered shared/_blog_sidebar.html.erb (8977.5ms)
+  Rendered shared/_blog_sidebar.html.erb (8992.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9009.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9022.4ms)
+  Rendered shared/_blog_sidebar.html.erb (9036.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9050.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9065.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9085.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9098.4ms)
+  Rendered shared/_blog_sidebar.html.erb (9113.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9128.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9143.4ms)
+  Rendered shared/_blog_sidebar.html.erb (9157.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9170.3ms)
+  Rendered shared/_blog_sidebar.html.erb (9183.3ms)
+  Rendered shared/_blog_sidebar.html.erb (9196.9ms)
+  Rendered shared/_blog_sidebar.html.erb (9211.3ms)
+  Rendered shared/_blog_sidebar.html.erb (9225.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9244.7ms)
+  Rendered shared/_blog_sidebar.html.erb (9261.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9275.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9288.7ms)
+  Rendered shared/_blog_sidebar.html.erb (9303.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9317.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9331.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9346.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9360.3ms)
+  Rendered shared/_blog_sidebar.html.erb (9373.7ms)
+  Rendered shared/_blog_sidebar.html.erb (9387.9ms)
+  Rendered shared/_blog_sidebar.html.erb (9401.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9421.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9436.9ms)
+  Rendered shared/_blog_sidebar.html.erb (9452.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9466.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9481.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9497.6ms)
+  Rendered shared/_blog_sidebar.html.erb (9513.6ms)
+  Rendered shared/_blog_sidebar.html.erb (9529.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9542.7ms)
+  Rendered shared/_blog_sidebar.html.erb (9556.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9571.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9591.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9605.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9620.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9635.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9649.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9663.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9676.5ms)
+  Rendered shared/_blog_sidebar.html.erb (9690.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9705.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9718.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9733.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9753.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9767.9ms)
+  Rendered shared/_blog_sidebar.html.erb (9782.9ms)
+  Rendered shared/_blog_sidebar.html.erb (9798.3ms)
+  Rendered shared/_blog_sidebar.html.erb (9812.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9828.6ms)
+  Rendered shared/_blog_sidebar.html.erb (9843.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9858.8ms)
+  Rendered shared/_blog_sidebar.html.erb (9872.2ms)
+  Rendered shared/_blog_sidebar.html.erb (9887.3ms)
+  Rendered shared/_blog_sidebar.html.erb (9900.9ms)
+  Rendered shared/_blog_sidebar.html.erb (9916.0ms)
+  Rendered shared/_blog_sidebar.html.erb (9936.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9949.7ms)
+  Rendered shared/_blog_sidebar.html.erb (9965.7ms)
+  Rendered shared/_blog_sidebar.html.erb (9981.1ms)
+  Rendered shared/_blog_sidebar.html.erb (9995.2ms)
+  Rendered shared/_blog_sidebar.html.erb (10009.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10022.6ms)
+  Rendered shared/_blog_sidebar.html.erb (10036.8ms)
+  Rendered shared/_blog_sidebar.html.erb (10049.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10063.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10077.4ms)
+  Rendered shared/_blog_sidebar.html.erb (10096.9ms)
+  Rendered shared/_blog_sidebar.html.erb (10111.0ms)
+  Rendered shared/_blog_sidebar.html.erb (10129.9ms)
+  Rendered shared/_blog_sidebar.html.erb (10150.2ms)
+  Rendered shared/_blog_sidebar.html.erb (10173.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10196.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10212.5ms)
+  Rendered shared/_blog_sidebar.html.erb (10226.2ms)
+  Rendered shared/_blog_sidebar.html.erb (10241.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10258.2ms)
+  Rendered shared/_blog_sidebar.html.erb (10280.0ms)
+  Rendered shared/_blog_sidebar.html.erb (10305.3ms)
+  Rendered shared/_blog_sidebar.html.erb (10328.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10344.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10364.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10388.8ms)
+  Rendered shared/_blog_sidebar.html.erb (10406.2ms)
+  Rendered shared/_blog_sidebar.html.erb (10420.3ms)
+  Rendered shared/_blog_sidebar.html.erb (10436.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10451.9ms)
+  Rendered shared/_blog_sidebar.html.erb (10477.6ms)
+  Rendered shared/_blog_sidebar.html.erb (10492.9ms)
+  Rendered shared/_blog_sidebar.html.erb (10506.5ms)
+  Rendered shared/_blog_sidebar.html.erb (10525.8ms)
+  Rendered shared/_blog_sidebar.html.erb (10540.8ms)
+  Rendered shared/_blog_sidebar.html.erb (10555.6ms)
+  Rendered shared/_blog_sidebar.html.erb (10569.4ms)
+  Rendered shared/_blog_sidebar.html.erb (10588.6ms)
+  Rendered shared/_blog_sidebar.html.erb (10604.2ms)
+  Rendered shared/_blog_sidebar.html.erb (10618.8ms)
+  Rendered shared/_blog_sidebar.html.erb (10632.3ms)
+  Rendered shared/_blog_sidebar.html.erb (10647.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10663.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10679.3ms)
+  Rendered shared/_blog_sidebar.html.erb (10712.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10726.4ms)
+  Rendered shared/_blog_sidebar.html.erb (10751.0ms)
+  Rendered shared/_blog_sidebar.html.erb (10766.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10779.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10796.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10813.5ms)
+  Rendered shared/_blog_sidebar.html.erb (10832.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10847.7ms)
+  Rendered shared/_blog_sidebar.html.erb (10864.9ms)
+  Rendered shared/_blog_sidebar.html.erb (10880.0ms)
+  Rendered shared/_blog_sidebar.html.erb (10909.3ms)
+  Rendered shared/_blog_sidebar.html.erb (10926.5ms)
+  Rendered shared/_blog_sidebar.html.erb (10941.1ms)
+  Rendered shared/_blog_sidebar.html.erb (10959.7ms)
+Completed 401 Unauthorized in 11420ms (ActiveRecord: 15.7ms)
+
+
+  
+SystemStackError (stack level too deep):
+  
+app/views/shared/_blog_sidebar.html.erb:12:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/shared/_blog_sidebar.html.erb:37:in `_app_views_shared__blog_sidebar_html_erb__3278313631006657203_70324502202840'
+app/views/layouts/blog.html.erb:36:in `_app_views_layouts_blog_html_erb___3757838628281252777_70324498076900'
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 17:55:04 -0700
+Started GET "/" for 127.0.0.1 at 2018-02-02 18:07:29 -0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+  Rendered shared/_application_nav.html.erb (46.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 423ms (Views: 390.6ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:07:33 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (14.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (33.4ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_sidebar.html.erb (0.3ms)
+Completed 200 OK in 98ms (Views: 87.4ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:07:33 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (8.3ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_sidebar.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 51.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 18:07:37 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (7.2ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (25.2ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 81ms (Views: 65.7ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 18:07:37 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (5.9ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (9.8ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:07:39 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.8ms)
+  Rendered blogs/index.html.erb within layouts/blog (9.3ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_sidebar.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 54.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:07:39 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (8.5ms)
+  Rendered shared/_blog_nav.html.erb (0.9ms)
+  Rendered shared/_blog_sidebar.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 56.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 18:07:40 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (3.4ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 18:07:40 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 18:07:41 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.4ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 18:07:41 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:07:43 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.9ms)
+  Rendered blogs/index.html.erb within layouts/blog (9.9ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_sidebar.html.erb (0.2ms)
+Completed 200 OK in 63ms (Views: 58.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:07:43 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.4ms)
+  Rendered blogs/index.html.erb within layouts/blog (8.8ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_sidebar.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 63.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:14:56 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT "blogs".* FROM "blogs"[0m
+  Rendered collection of blogs/_blog.html.erb [10 times] (5.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (8.8ms)
+  Rendered shared/_blog_nav.html.erb (1.3ms)
+  Rendered shared/_blog_masthead.html.erb (0.9ms)
+  Rendered shared/_blog_sidebar.html.erb (0.3ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 18:42:40 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Started GET "/" for 127.0.0.1 at 2018-02-02 18:42:46 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_application_nav.html.erb (259.0ms)
+  Rendered shared/_application_nav.html.erb (33.8ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 8862ms (Views: 8830.6ms | ActiveRecord: 8.2ms)
+
+
+Completed 200 OK in 2697ms (Views: 2599.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:42:54 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.7ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (9.5ms)
+  Rendered blogs/index.html.erb within layouts/blog (49.2ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.5ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.2ms)
+Completed 200 OK in 125ms (Views: 110.2ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:42:54 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (20.1ms)
+  Rendered shared/_blog_nav.html.erb (1.4ms)
+  Rendered shared/_blog_masthead.html.erb (0.6ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 74.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:43:00 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (4.2ms)
+  Rendered blogs/index.html.erb within layouts/blog (22.9ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.5ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 77.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 18:43:22 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.5ms)
+  Rendered blogs/index.html.erb within layouts/blog (22.7ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.5ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.2ms)
+Completed 200 OK in 81ms (Views: 76.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/www.tinder.com" for 127.0.0.1 at 2018-02-02 18:43:26 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/www.tinder.com"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/www.tinder.com" for 127.0.0.1 at 2018-02-02 19:52:56 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/www.tinder.com"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:53:01 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_application_nav.html.erb (39.9ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 424ms (Views: 398.4ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:54:34 -0700
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered shared/_application_nav.html.erb (54.0ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 420ms (Views: 390.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:54:52 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.3ms)
+  Rendered shared/_application_footer.html.erb (0.6ms)
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:54:52 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.9ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:54:53 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:54:54 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered shared/_application_nav.html.erb (1.6ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 19:54:59 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-02 19:55:13 -0700
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.9ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 19:55:14 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 19:55:15 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (3.0ms)
+  Rendered shared/_application_nav.html.erb (1.2ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 64ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 19:55:23 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (9.7ms)
+  Rendered blogs/index.html.erb within layouts/blog (49.5ms)
+  Rendered shared/_blog_nav.html.erb (1.0ms)
+  Rendered shared/_blog_masthead.html.erb (0.5ms)
+  Rendered shared/_blog_sidebar.html.erb (0.5ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 111.0ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-02 19:55:23 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.2ms)
+  Rendered blogs/index.html.erb within layouts/blog (21.1ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.5ms)
+  Rendered shared/_blog_sidebar.html.erb (0.5ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 80.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 19:55:28 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.8ms)
+  Rendered shared/_application_nav.html.erb (1.2ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 19:55:28 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 19:55:32 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.6ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (6.9ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (33.7ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 131ms (Views: 114.5ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-02 19:55:32 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (6.1ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (10.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 73ms (Views: 69.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 19:55:36 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2018-02-02 19:55:36 -0700
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+  Rendered shared/_application_nav.html.erb (1.1ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-02 19:55:53 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered shared/_application_nav.html.erb (1.2ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-03 15:43:57 -0700
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.3ms)
+  Rendered shared/_application_nav.html.erb (64.4ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 2764ms (Views: 2715.8ms | ActiveRecord: 31.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 15:44:02 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (13.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (2.9ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (40.4ms)
+  Rendered shared/_nav.html.erb (1.3ms)
+Completed 200 OK in 145ms (Views: 114.5ms | ActiveRecord: 20.0ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 15:44:02 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (2.0ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (6.1ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 70ms (Views: 65.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 15:44:05 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.2ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.1ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 60ms (Views: 55.3ms | ActiveRecord: 0.4ms)
+
+
