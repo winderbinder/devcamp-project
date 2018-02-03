@@ -13709,3 +13709,138 @@ Processing by PortfoliosController#index as HTML
 Completed 200 OK in 60ms (Views: 55.3ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 16:25:12 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.8ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.7ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (19.8ms)
+  Rendered shared/_portfolio_nav.html.erb (1.7ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_footer.html.erb (0.2ms)
+Completed 200 OK in 473ms (Views: 408.8ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-03 16:31:26 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.8ms)
+  Rendered shared/_application_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-03 16:31:26 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.0ms)
+  Rendered shared/_application_footer.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 16:31:27 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.5ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (6.6ms)
+  Rendered shared/_portfolio_nav.html.erb (1.1ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 64.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 16:31:27 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.3ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (4.8ms)
+  Rendered shared/_portfolio_nav.html.erb (1.8ms)
+  Rendered shared/_portfolio_masthead.html.erb (6.0ms)
+  Rendered shared/_portfolio_footer.html.erb (0.2ms)
+Completed 200 OK in 65ms (Views: 61.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/portfolio/2" for 127.0.0.1 at 2018-02-03 16:31:28 -0700
+Processing by PortfoliosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering portfolios/show.html.erb within layouts/portfolios
+  [1m[36mTechnology Load (6.8ms)[0m  [1m[34mSELECT "technologies".* FROM "technologies" WHERE "technologies"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+  Rendered portfolios/show.html.erb within layouts/portfolios (31.3ms)
+  Rendered shared/_portfolio_nav.html.erb (1.0ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.6ms)
+  Rendered shared/_portfolio_footer.html.erb (0.2ms)
+Completed 200 OK in 92ms (Views: 71.0ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/portfolio/2" for 127.0.0.1 at 2018-02-03 16:31:30 -0700
+Processing by PortfoliosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" WHERE "portfolios"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering portfolios/show.html.erb within layouts/portfolios
+  [1m[36mTechnology Load (0.3ms)[0m  [1m[34mSELECT "technologies".* FROM "technologies" WHERE "technologies"."portfolio_id" = $1[0m  [["portfolio_id", 2]]
+  Rendered portfolios/show.html.erb within layouts/portfolios (1.6ms)
+  Rendered shared/_portfolio_nav.html.erb (1.0ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.4ms)
+  Rendered shared/_portfolio_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 53.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-03 16:31:32 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.2ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 60ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about-me" for 127.0.0.1 at 2018-02-03 16:31:32 -0700
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+  Rendered shared/_application_nav.html.erb (1.2ms)
+  Rendered shared/_application_footer.html.erb (0.2ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 16:31:34 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.3ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.1ms)
+  Rendered shared/_portfolio_nav.html.erb (1.1ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.4ms)
+  Rendered shared/_portfolio_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 56.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 16:31:34 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.8ms)
+  Rendered shared/_portfolio_nav.html.erb (1.0ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.4ms)
+  Rendered shared/_portfolio_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-03 16:31:51 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios"[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.0ms)
+  Rendered shared/_portfolio_nav.html.erb (1.3ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.6ms)
+  Rendered shared/_portfolio_footer.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 65.6ms | ActiveRecord: 0.4ms)
+
+
