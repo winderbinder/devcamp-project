@@ -14236,3 +14236,332 @@ Processing by BlogsController#index as HTML
 Completed 200 OK in 83ms (Views: 78.6ms | ActiveRecord: 0.8ms)
 
 
+  [1m[35m (5.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1923310492946048640)[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddPositionToPortfolios (20180205171347)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (27.2ms)[0m  [1m[35mALTER TABLE "portfolios" ADD "position" integer[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180205171347"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1923310492946048640)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:19:09 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (13.6ms)
+  Rendered blogs/index.html.erb within layouts/blog (52.2ms)
+  Rendered shared/_blog_nav.html.erb (1.2ms)
+  Rendered shared/_blog_masthead.html.erb (0.6ms)
+  Rendered shared/_blog_sidebar.html.erb (0.7ms)
+  Rendered shared/_blog_footer.html.erb (0.4ms)
+Completed 200 OK in 570ms (Views: 494.6ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:19:11 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (1.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (18.6ms)
+  Rendered shared/_portfolio_nav.html.erb (1.3ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.1ms)
+  Rendered shared/_portfolio_footer.html.erb (0.5ms)
+Completed 200 OK in 91ms (Views: 73.8ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:19:11 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.7ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.6ms)
+  Rendered shared/_portfolio_nav.html.erb (1.7ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.1ms)
+  Rendered shared/_portfolio_footer.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 71.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:19:53 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.2ms)
+  Rendered shared/_portfolio_nav.html.erb (1.3ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.2ms)
+  Rendered shared/_portfolio_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:19:58 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.6ms)
+  Rendered blogs/index.html.erb within layouts/blog (23.4ms)
+  Rendered shared/_blog_nav.html.erb (1.2ms)
+  Rendered shared/_blog_masthead.html.erb (0.6ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 93ms (Views: 88.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:19:58 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.6ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (4.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (22.6ms)
+  Rendered shared/_blog_nav.html.erb (1.3ms)
+  Rendered shared/_blog_masthead.html.erb (0.6ms)
+  Rendered shared/_blog_sidebar.html.erb (0.6ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 89ms (Views: 84.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:20:06 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.2ms)
+  Rendered blogs/index.html.erb within layouts/blog (21.5ms)
+  Rendered shared/_blog_nav.html.erb (1.9ms)
+  Rendered shared/_blog_masthead.html.erb (0.7ms)
+  Rendered shared/_blog_sidebar.html.erb (0.5ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 82ms (Views: 77.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:20:09 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (8.1ms)
+  Rendered blogs/index.html.erb within layouts/blog (26.6ms)
+  Rendered shared/_blog_nav.html.erb (1.2ms)
+  Rendered shared/_blog_masthead.html.erb (0.8ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 79.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:20:10 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.4ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (2.6ms)
+  Rendered blogs/index.html.erb within layouts/blog (21.1ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.8ms)
+  Rendered shared/_blog_sidebar.html.erb (0.6ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 73.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:20:12 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.5ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (6.2ms)
+  Rendered shared/_portfolio_nav.html.erb (1.4ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.4ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.1ms)
+  Rendered shared/_portfolio_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 66.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:20:12 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.2ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (4.8ms)
+  Rendered shared/_portfolio_nav.html.erb (1.2ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.6ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.1ms)
+  Rendered shared/_portfolio_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 58.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:20:14 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.8ms)
+  Rendered blogs/index.html.erb within layouts/blog (22.6ms)
+  Rendered shared/_blog_nav.html.erb (1.3ms)
+  Rendered shared/_blog_masthead.html.erb (0.6ms)
+  Rendered shared/_blog_sidebar.html.erb (0.5ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 84ms (Views: 78.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:20:14 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.9ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (3.6ms)
+  Rendered blogs/index.html.erb within layouts/blog (29.0ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.4ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 90ms (Views: 85.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:20:22 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.3ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (2.8ms)
+  Rendered blogs/index.html.erb within layouts/blog (19.9ms)
+  Rendered shared/_blog_nav.html.erb (1.1ms)
+  Rendered shared/_blog_masthead.html.erb (0.5ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 72.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:20:38 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.5ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.8ms)
+  Rendered shared/_portfolio_nav.html.erb (1.2ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.4ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.1ms)
+  Rendered shared/_portfolio_footer.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:20:38 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.3ms)
+  Rendered shared/_portfolio_nav.html.erb (1.4ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.4ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.2ms)
+  Rendered shared/_portfolio_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mPortfolio Load (0.5ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mPortfolio Load (0.7ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[33mUPDATE "portfolios" SET "position" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["position", 1], ["updated_at", "2018-02-05 17:23:43.936956"], ["id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT  "portfolios".* FROM "portfolios" ORDER BY "portfolios"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "portfolios" SET "position" = $1, "updated_at" = $2 WHERE "portfolios"."id" = $3[0m  [["position", 2], ["updated_at", "2018-02-05 17:24:16.165958"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:28:10 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (10.0ms)
+  Rendered blogs/index.html.erb within layouts/blog (47.1ms)
+  Rendered shared/_blog_nav.html.erb (1.3ms)
+  Rendered shared/_blog_masthead.html.erb (0.9ms)
+  Rendered shared/_blog_sidebar.html.erb (0.5ms)
+  Rendered shared/_blog_footer.html.erb (0.3ms)
+Completed 200 OK in 469ms (Views: 399.1ms | ActiveRecord: 14.8ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:28:18 -0700
+Processing by PortfoliosController#index as HTML
+Completed 401 Unauthorized in 194ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `by_position' for #<PortfoliosController:0x007f825e281f30>):
+  
+app/controllers/portfolios_controller.rb:7:in `index'
+Started GET "/blogs" for 127.0.0.1 at 2018-02-05 10:28:22 -0700
+Processing by BlogsController#index as HTML
+  Rendering blogs/index.html.erb within layouts/blog
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "blogs"[0m
+  [1m[36mBlog Load (0.5ms)[0m  [1m[34mSELECT  "blogs".* FROM "blogs" LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  Rendered collection of blogs/_blog.html.erb [5 times] (4.4ms)
+  Rendered blogs/index.html.erb within layouts/blog (28.6ms)
+  Rendered shared/_blog_nav.html.erb (2.0ms)
+  Rendered shared/_blog_masthead.html.erb (1.0ms)
+  Rendered shared/_blog_sidebar.html.erb (0.4ms)
+  Rendered shared/_blog_footer.html.erb (0.2ms)
+Completed 200 OK in 113ms (Views: 108.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:28:29 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.9ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (17.1ms)
+  Rendered shared/_portfolio_nav.html.erb (1.3ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.6ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.2ms)
+  Rendered shared/_portfolio_footer.html.erb (0.5ms)
+Completed 200 OK in 121ms (Views: 70.4ms | ActiveRecord: 13.3ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:28:29 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.4ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.2ms)
+  Rendered shared/_portfolio_nav.html.erb (1.3ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.7ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.2ms)
+  Rendered shared/_portfolio_footer.html.erb (0.4ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:31:06 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.3ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.2ms)
+  Rendered shared/_portfolio_nav.html.erb (1.2ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.1ms)
+  Rendered shared/_portfolio_footer.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 70.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/portfolios" for 127.0.0.1 at 2018-02-05 10:31:10 -0700
+Processing by PortfoliosController#index as HTML
+  Rendering portfolios/index.html.erb within layouts/portfolios
+  [1m[36mPortfolio Load (0.4ms)[0m  [1m[34mSELECT "portfolios".* FROM "portfolios" ORDER BY position ASC[0m
+  Rendered collection of portfolios/_portfolio_item.html.erb [10 times] (1.2ms)
+  Rendered portfolios/index.html.erb within layouts/portfolios (5.0ms)
+  Rendered shared/_portfolio_nav.html.erb (1.1ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.5ms)
+  Rendered shared/_portfolio_masthead.html.erb (0.2ms)
+  Rendered shared/_portfolio_footer.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 55.5ms | ActiveRecord: 0.4ms)
+
+
