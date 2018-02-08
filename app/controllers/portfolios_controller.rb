@@ -20,12 +20,11 @@ class PortfoliosController < ApplicationController
   def angular
     @angular_portfolio_items = Portfolio.angular
   end
-    def new
+  def new
     @portfolio_item = Portfolio.new
-    3.times { @portfolio_item.technologies.build }
   end
 
-    def create
+  def create
     @portfolio_item = Portfolio.new(portfolio_params)
 
     respond_to do |format|
@@ -41,7 +40,6 @@ class PortfoliosController < ApplicationController
   end
 
   def update
-
     respond_to do |format|
       if @portfolio_item.update(portfolio_params)
         format.html { redirect_to portfolios_path, notice: 'Blog was successfully updated.' }
