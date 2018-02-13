@@ -8,7 +8,10 @@
     <%= @blog.body %>
   </p>
 
-  <%= render 'comments/comment_form' %>
+    <%= render 'comments/comment_form' %>
 
-  <%= render @blog.comments %>
+  <div if ="comments">
+    <%= render @blog.comments %>
+  </div>
+
 </div>
