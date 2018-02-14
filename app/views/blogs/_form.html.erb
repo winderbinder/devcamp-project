@@ -23,6 +23,16 @@
   </div>
 
   <div class="form-group">
+    <%= f.radio_button :status, 'draft' %>
+    <%= f.label :status, 'Draft' %>
+  </div>
+
+  <div class="form-group">
+    <%= f.radio_button :status, 'published' %>
+    <%= f.label :status, 'Published' %>
+  </div>
+
+  <div class="form-group">
     <%= f.label :body %>
     <%= f.text_area :body, class: 'form-control', rows: 15 %>
   </div>
