@@ -2,24 +2,71 @@
   <div class="card">
     <h1 id="about-me-heading">About Me</h1>
     
-  <hr>
+    <hr>
 
 
-<div class="row">
-  <div class="col-md-4">
-    <%= image_tag "ugandanknuck.jpg", width: 450, alt:"profile pic" %>
-  </div>
-
-
-  <div class="col-md-8">
-    <p>
-      DO YOU KNOW DE WAE?
-    </p>
-
-    <p>
-      I KNOW DE WAE
-    </p>
+    <div class="row">
+      <div class="col-md-4">
+        <%= image_tag "ugandanknuck.jpg", width: 450, alt:"profile pic" %>
       </div>
+
+
+      <div class="col-md-8">
+        <p>
+          DO YOU KNOW DE WAE?
+        </p>
+
+        <p>
+          I KNOW DE WAE
+        </p>
+
+        <p>
+          <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#jobHistory"
+          aria-expanded="false"
+          aria-controler="jobHistory"
+          >
+          Job History
+        </button>
+
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="collapse"
+          data-target="#jobHistory"
+          aria-expanded="false"
+          aria-controler="Education"
+          >
+          Education
+        </button>
+      </p>
+
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card card-block">
+              job 1
+            </div>
+            <div>
+              job 2
+            </div>
+          </div>
+
+          <div class="collapse" id="Education">
+            <div class="card card-block">
+              school 1
+            </div>
+            <div>
+              school 2
+            </div>
+            <div>
+              school 3
+            </div>
+          </div>
+        </p>
+     </div>
     </div>
   </div>
 </div>
