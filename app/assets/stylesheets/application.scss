@@ -1,6 +1,11 @@
 @import "bootstrap";
 @import "gritter";
 
+@font-face {
+  font-family: 'Fjalla One', sans-serif;
+  src:font-url('FjallaOne-Regular.ttf');
+}
+
 /*
  * Globals
  */
@@ -30,11 +35,21 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Fjalla One', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6, {
+  font-family: 'Fjalla One', sans-serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -219,4 +234,44 @@ body {
 
 .tech-news > .card {
   padding: 30px;
+}
+
+#app-card-container {
+  color: black;
+  font-size: 26px;
+  border-radius: 5px;
+  border: 2px darkgrey solid;
+  padding: 2px;
+}
+
+#app-card-container > .card {
+  padding: 10px;
+}
+
+#app-card-contact-container {
+  color: black;
+  font-size: 26px;
+  border-radius: 5px;
+  border: grey 2px solid;
+  padding: 2px;
+}
+
+#app-card-contact-container a {
+  color: purple;
+}
+
+#about-me-heading {
+  color: black;
+  font-size: 100px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.card-block {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skill {
+  margin-top: 5px;
+  margin-bottom: 10px;
 }

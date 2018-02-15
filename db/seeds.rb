@@ -62,3 +62,15 @@ User.create!(
  password_confirmation: "whopper1",
  role: "site_admin"
 )
+
+puts "1 admin user created"
+
+User.create!(
+ name: "guest",
+ email: "guest@guest.com",
+ password: "guest1",
+ password_confirmation: "guest1",
+ 
+)
+
+puts "1 guest user created"
