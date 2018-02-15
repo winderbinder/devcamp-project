@@ -220,3 +220,34 @@ body {
 .tech-news > .card {
   padding: 30px;
 }
+
+#app-card-container {
+  color: black;
+  font-size: 26px;
+  border-radius: 5px;
+  border: 2px darkgrey solid;
+  padding: 2px;
+}
+
+#app-card-container > .card {
+  padding: 40px;
+}
+
+#app-card-contact-container {
+  color: black;
+  font-size: 26px;
+  border-radius: 5px;
+  border: grey 2px solid;
+  padding: 2px;
+}
+
+#app-card-contact-container a {
+  color: purple;
+}
+
+#about-me-heading {
+  color: black;
+  font-size: 150px;
+  font-family: sans-serif;
+  padding: 20px;
+}
