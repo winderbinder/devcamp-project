@@ -68,7 +68,7 @@ module ApplicationHelper
 
     if alert
       alert_generator alert
-    end   
+    end
   end
 
 
