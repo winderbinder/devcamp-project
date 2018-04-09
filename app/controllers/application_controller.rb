@@ -10,4 +10,5 @@ class ApplicationController < ActionController::Base
   def set_copyright
    @copyright = AlonsoViewTool::Renderer.copyright "Alonso Hernandez", "All rights reserved"
   end
+  
 end
